@@ -1,0 +1,75 @@
+node_modules
+# Keep environment variables out of version control
+
+# .env
+
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Build Output
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.pid
+
+# IDE directories and settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debugging files
+debug/
+out/
+
+# Optional npm cache directory
+.npm/
+
+# Yarn cache
+.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# TypeScript compiled output
+*.tsbuildinfo
+*.tscache
+
+# Test coverage
+coverage/
+
+# Firebase cache
+.firebase/
